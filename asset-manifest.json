@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/study-management-system/static/css/main.8c9c4b9a.css",
+    "main.js": "/study-management-system/static/js/main.a3f676fa.js",
+    "static/js/453.3ae35bd1.chunk.js": "/study-management-system/static/js/453.3ae35bd1.chunk.js",
+    "index.html": "/study-management-system/index.html",
+    "main.8c9c4b9a.css.map": "/study-management-system/static/css/main.8c9c4b9a.css.map",
+    "main.a3f676fa.js.map": "/study-management-system/static/js/main.a3f676fa.js.map",
+    "453.3ae35bd1.chunk.js.map": "/study-management-system/static/js/453.3ae35bd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c9c4b9a.css",
+    "static/js/main.a3f676fa.js"
+  ]
+}
