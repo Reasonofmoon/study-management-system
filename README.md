@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# 모의고사 분석 시스템 (Study Management System)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+학생들의 모의고사 결과를 체계적으로 분석하고 관리하기 위한 웹 기반 시스템입니다.
 
-## Available Scripts
+## 주요 기능
 
-In the project directory, you can run:
+### 1. 시험 정보 관리
+- 시험 날짜, 종류, 점수 등 기본 정보 입력
+- 과목별 관리 기능
+- 오답 문항 분석 및 기록
 
-### `npm start`
+### 2. 미시적 분석
+- 어휘력 평가 및 분석
+- 문법 포인트 정리
+- 오답 유형 분석
+- 자주 틀리는 단어 추적
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3. 거시적 분석
+- 성적 추이 시각화
+- 주제별 분석 요약
+- 개선 영역 분석
+- 학습 패턴 분석
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 4. 학습 계획 관리
+- 일일/주간/월간/연간 목표 설정
+- 개선점 추적
+- 학습 계획 수립
+- 진행 상황 모니터링
 
-### `npm test`
+## 설치 방법
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. 저장소 클론
+```bash
+git clone https://github.com/Reasonofmoon/study-management-system.git
+cd study-management-system
+```
 
-### `npm run build`
+2. 의존성 패키지 설치
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. 개발 서버 실행
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 필수 패키지
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React.js
+- Recharts (차트 시각화)
+- Lucide React (아이콘)
+- Tailwind CSS (스타일링)
 
-### `npm run eject`
+## 프로젝트 구조
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+src/
+├── components/
+│   ├── ExamAnalysisSystem.js
+│   ├── VocabularyTable.js
+│   ├── SentenceAnalysis.js
+│   ├── MacroAnalysis.js
+│   └── ExamReflection.js
+├── utils/
+│   └── storage.js
+├── App.js
+└── index.js
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 사용 방법
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. 새로운 시험 기록 추가
+   - '학습 일지' 탭에서 시험 정보 입력
+   - 오답 분석 및 어휘/문법 포인트 기록
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. 분석 결과 확인
+   - '성적 분석' 탭에서 다양한 통계 확인
+   - 차트를 통한 시각적 분석
 
-## Learn More
+3. 학습 계획 수립
+   - '학습 계획' 탭에서 목표 설정
+   - 개선점 기록 및 추적
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 기여 방법
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Code Splitting
+## 라이선스
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+MIT License - 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
 
-### Analyzing the Bundle Size
+## 연락처
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+이메일: soundfury37@gmail.com
+프로젝트 링크: https://github.com/Reasonofmoon/study-management-system
